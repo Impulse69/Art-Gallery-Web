@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#" id="navbar__logo"> <i class='bx bxs-palette'></i>Art Gallery</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+        <ul class="navbar__menu">
+            
+            <li class="navbar__item">
+                <a href="Selwyn/gallery.html" class="navbar__links">Paintings</a>
+            </li>
+            <li class="navbar__item">
+                <a href="ish/gallery.html" class="navbar__links">Sculpture</a>
+            </li>
+            <li class="navbar__item">
+                <a href="Wilson/index.html" class="navbar__links">Photographs</a>
+            </li>
+            <li class="navbar__item">
+                <a href="Owusu/ind.html" class="navbar__links">Drawings</a>
+            </li>
+            <li class="navbar__item">
+                <a href="form.html" class="navbar__links">Inquire</a>
+            </li>
+            
+            
+        </ul>
+    </nav>
+    </header>
+
+    <section class="home-container">
+        <div class="home-content">
+        <h1>Welcome</h1>
+        <p>
+            Our Art Gallery serves as a cultural hub where artists can express themselves freely and connect with a wider audience. Through our exhibitions and events, we aim to foster a sense of community and appreciation for the arts. We believe that art has the ability to spark conversations, evoke emotions, and challenge perspectives, making it an essential part of our society. At our gallery, we strive to create an inclusive and welcoming environment where everyone can experience the beauty and power of artistic expression.        </p>
+        
+        <h1>Our Collection</h1>
+        <p>
+            Our carefully curated collection showcases a diverse range of artistic styles and mediums, inviting visitors to explore and appreciate the rich tapestry of creativity. From traditional paintings and sculptures that pay homage to classical techniques, to contemporary digital art and photography that push the boundaries of innovation, our gallery offers a dynamic and captivating experience for art enthusiasts of all kinds. Each piece in our collection is handpicked for its distinctive perspective and ability to spark imagination and emotion, creating a space where visitors can immerse themselves in a world of inspiration and discovery.        
+        </p>
+
+        
+    </div>
+    </section>
+
+    <div class="full-img" id="fullImgBox">
+        <img src="images/img1.jpg" id="fullImg">
+        <span onclick="closeFullImg()">X</span>
+    </div>
+
+    <div class="art">
+        <div class="image-container">
+            <div class="img-wrapper">
+                <img src="images/img1.jpg" onclick="openFullImg(this.src)">
+                <div class="overlay">
+                    <h1>Nature</h1>
+                    <h2>The stark contrast between the dark outlines of the trees creates a dramatic and artistic effect. Highlighting the natural beauty and elegance of the trees. </h2>
+                </div>
+            </div>
+            <div class="img-wrapper">
+                <img src="images/img2.jpg" onclick="openFullImg(this.src)">
+                <div class="overlay">
+                    <h1>Paint</h1>
+                    <h2>A painter's palette with vibrant colors, a brush poised with brown paint, captures the essence of artistic creation and inspiration.</h2>
+                </div>
+            </div>
+            <div class="img-wrapper">
+                <img src="images/img3.jpg" onclick="openFullImg(this.src)">
+                <div class="overlay">
+                    <h1>Digital Setup</h1>
+                    <h2>A dual-monitor setup with a glowing keyboard and mouse, bathed in blue light, creates an immersive and modern workspace.</h2>
+                </div>
+            </div>
+            <div class="img-wrapper">
+                <img src="images/img4.jpg" onclick="openFullImg(this.src)">
+                <div class="overlay">
+                    <h1>Macaw</h1>
+                    <h2>A majestic blue and yellow macaw, wings outstretched, perches on a branch, a stunning display of nature's vibrant colors.</h2>
+                </div>
+            </div>
+            <div class="img-wrapper">
+                <img src="images/img11.jpg" onclick="openFullImg(this.src)">
+                <div class="overlay">
+                    <h1>Roronoa Zoro</h1>
+                    <h2>Roronoa Zoro, the Straw Hat Pirates’ indomitable swordsman, dances on the edge of chaos, vowing to become the world’s greatest swordsman.</h2>
+                </div>
+            </div>
+            <div class="img-wrapper">
+                <img src="images/img6.jpg" onclick="openFullImg(this.src)">
+                <div class="overlay">
+                    <h1>Statute of Liberty</h1>
+                    <h2>The Statue of Liberty, a symbol of freedom, stands tall in New York Harbor, welcoming immigrants with open arms</h2>
+                </div>
+            </div>
+            <div class="img-wrapper">
+                <img src="images/img7.jpg" onclick="openFullImg(this.src)">
+                <div class="overlay">
+                    <h1>Ford Mustang</h1>
+                    <h2>A blue Ford Mustang Shelby GT500, adorned with white stripes, exudes power on a tranquil road with it's adrenaline-charged automotive artistry</h2>
+                </div>
+            </div>
+            <div class="img-wrapper">
+                <img src="images/img8.jpg" onclick="openFullImg(this.src)">
+                <div class="overlay">
+                    <h1>Artwork</h1>
+                    <h2>A sketchbook reveals a detailed feather drawing, flanked by a pencil and marker, capturing the essence of artistic creativity</h2>
+                </div>
+            </div>
+            <div class="img-wrapper">
+                <img src="images/img9.jpg" onclick="openFullImg(this.src)">
+                <div class="overlay">
+                    <h1>Rubix Cube</h1>
+                    <h2>A Rubik’s Cube, reflecting the intricate challenge and satisfaction of conquering this iconic 3D combination puzzle.</h2>
+                </div>
+            </div>
+            <div class="img-wrapper">
+                <img src="images/img10.jpg" onclick="openFullImg(this.src)">
+                <div class="overlay">
+                    <h1>Art Equipment</h1>
+                    <h2>A sketchbook page displays bird and mask sketches, surrounded by pencils and markers, a testament to artistic exploration and expression</h2>
+                </div>
+            </div>
+            <div class="img-wrapper">
+                <img src="images/img12.jpg" onclick="openFullImg(this.src)">
+                <div class="overlay">
+                    <h1>Photography</h1>
+                    <h2>An artist with a wide-brimmed hat focuses intently on a wall mural, bringing vibrant creativity to life with each stroke.</h2>
+                </div>
+            </div>
+            <div class="img-wrapper">
+                <img src="images/img13.jpg" onclick="openFullImg(this.src)">
+                <div class="overlay">
+                    <h1>Sculpture</h1>
+                    <h2> collection of classical bust sculptures, faces obscured by rectangles, presents a striking contrast between anonymity and historical artistry.</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br></br>
+    <div>
+        <video autoplay loop muted plays-inline class="clip">
+            <source src="images/GalleryVideo.mp4" type="video/mp4">
+        </video>
+        <div class="videoclip"></div>
+    </div>
+
+    <div class="map">
+        <h1>LOCATE US</h1>
+    </div>
+
+    <div class="map_container">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.4891479626294!2d-0.26538852649898786!3d6.064571728329338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf6a808e1f4ded%3A0x99aadb13dad56b87!2sKoforidua%20Technical%20University!5e0!3m2!1sen!2sgh!4v1720138686259!5m2!1sen!2sgh" width="1000" height="450" frameborder="0" allowfullscreen="" loading="lazy" ></iframe>
+        
+    </div>
+
+    <div class="footer">
+        <div class="row">
+            <div class="col">
+                <a href="#" id="navbar__logo"> <i class='bx bxs-palette'></i>
+                <p>The Art Gallery Homepage created by Isaac Asamoah from Koforidua Techincal University in 2024 during his second academic year.</p>
+            </div>
+                <div class="col">
+                    <h3>Office</h3>
+                    <p>Mile 50 Road</p>
+                    <p>Contentment, Koforidua</p>
+                    <p>Eastern Region, AS23454543, Ghana</p>
+                    <p class="email-id">juniorike69@gmail.com</p>
+                    <p>+233 245697141</p>
+                </div>
+                <div class="col">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="Selwyn/gallery.html">Paintings</a></li>
+                        <li><a href="ish/gallery.html">Sculpture</a></li>
+                        <li><a href="Wilson/index.html">Photographs</a></li>
+                        <li><a href="Owusu/ind.html">Drawings</a></li>
+                        <li><a href="form.html">Reah Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col">
+                    <h3>Our Socials</h3>
+                    <div class="socials">
+                        <a href="https://www.instagram.com/junior_ike_/"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://wa.me/+233245697141"><i class='bx bxl-whatsapp' ></i></a>
+                        <a href="https://t.me/Ghost_off_Uchiha"><i class='bx bxl-telegram' ></i></a>
+                    </div>
+                </div>
+        </div>
+            
+    </div>
+    <script>
+        window.embeddedChatbotConfig = {
+        chatbotId: "MDkRPsjy4S3LaQK0vp8tA",
+        domain: "www.chatbase.co"
+        }
+        </script>
+        <script
+        src="https://www.chatbase.co/embed.min.js"
+        chatbotId="MDkRPsjy4S3LaQK0vp8tA"
+        domain="www.chatbase.co"
+        defer>
+        </script>
+
+    <script src="script.js"></script>
+    
+</body>
+
+</html>

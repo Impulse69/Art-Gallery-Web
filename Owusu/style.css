@@ -1,0 +1,211 @@
+
+    
+       
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'kumbh sans',sans-serif;
+
+}
+
+
+body {
+    color: #1a0606;
+    background: #1b9bc6;
+}
+
+ 
+
+ 
+
+ 
+.fa-palette {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+.home-content h1 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 40px;
+}
+
+.home-content p {
+    margin: 40px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.art {
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+.art img { 
+    width: 100%;
+    cursor: pointer;
+}
+
+/* transition here */
+
+
+.full-img {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.full-img img {
+    width: 90%;
+    max-width: 1000px;
+}
+
+.full-img span {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+.art {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.art img {
+    width: 400px;
+    height: 300px;
+   
+    border-radius: 16px;
+    
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+.art img:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+
+.card{
+    background-color: #fff;
+    border: 1px solid hsla(0, 1%, 70%, 0.852);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 8px;
+    box-shadow: 4px 7px 7px 0px black;
+    border-radius: 16px;
+
+}
+
+.card .cardButton{
+    width:100px ;
+    padding:8px ; 
+    background-color: #1b9bc6;
+  margin-right: 10px; ;
+    border: none;
+
+}
+
+.cardButton a {
+    color: aliceblue;
+    font-size:16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    margin-left: 10px;
+    color: hsl(0, 0%, 38%);
+    
+}
+
+.cardTitle{
+    display: flex;
+justify-content: space-between;
+}
+
+
+.OrderForm{
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    padding: 8px;
+    width: 100%;
+    border-radius:8px ;
+
+
+}
+
+form span{
+    padding: 1em;
+}
+
+form label {
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsla(0, 1%, 17%, 0.938);
+
+    padding: 4px;
+
+}
+
+form input{
+    margin-left: 10px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+
+.SUB{color: #1a0606;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsla(0, 0%, 100%, 0.938);
+
+    padding: 8px;
+    background-color: hsl(258, 90%, 54%);
+    border: none;
+    border-radius: 4px;
+
+
+}
+.head{
+    color: aliceblue;
+    font-size: x-large;
+    font-weight: 900;
+    text-align: center;
+    padding: 16px;
+}
+.Order{
+    display: none;
+}
+
+.orderClick{
+    display: block;
+}

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Drawing</title>
+    <link rel="stylesheet" href="../Navigation/navbar.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="../index.html" id="navbar__logo"> <i class='bx bxs-palette'></i>Art</a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+            <ul class="navbar__menu">
+                
+                <li class="navbar__item">
+                    <a href="../Selwyn/gallery.html" class="navbar__links">Paintings</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="../ish/gallery.html" class="navbar__links">Sculpture</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="../Wilson/index.html" class="navbar__links">Photographs</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#" class="navbar__links">Drawings</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="../form.html" class="navbar__links">Inquire</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+        <h1> Our Drawing Collection</h1>
+        <p>
+             Drawings are a fundamental medium for artistic expression and creativity.
+             Various techniques, such as sketching, shading, and rendering, are used to create different effects.
+             Drawings can be created using various tools, like pencils, charcoal, ink, and pastels.
+             Different styles, like realistic, abstract, and cartooning, showcase the artist's unique perspective.
+             Drawings can be used to explore ideas, experiment with techniques, and develop conceptual art.
+             Drawings are a crucial step in the creation of other art forms, like paintings, sculptures, and prints
+           
+            </p>
+        <br></br>
+        
+    </div>
+        
+        
+
+    <div class="full-img" id="fullImgBox">
+        <img src="images/img1.jpg" id="fullImg">
+        <span onclick="closeFullImg()">X</span>
+    </div>
+
+    <div class="art">
+       <div class="card">
+        <img src="img/pexels-cottonbro-3992150.jpg" onclick="openFullImg(this.src)">
+         <div class="cardTitle">
+         <div class="title">   
+        <p>Name:Grace</p>
+         <p>Painted By:Afia Banks</p>
+        </div>
+        <button class="cardButton" onclick="popOrder()" ><a href="#Order">Order Now</a></button>
+    </div>
+         </div>  
+
+
+
+         <div class="card">
+            <img src="img/pexels-cottonbro-4123707.jpg" onclick="openFullImg(this.src)">
+             <div class="cardTitle">
+             <div class="title">   
+            <p>Name:william</p>
+             <p>Painted By:holman hunt</p>
+            </div>
+            <button class="cardButton" onclick="popOrder()" ><a href="#Order">Order Now</a></button>
+        </div>
+             </div> 
+             
+             
+             <div class="card">
+                <img src="img/pexels-cottonbro-6684664.jpg" onclick="openFullImg(this.src)">
+                 <div class="cardTitle">
+                 <div class="title">   
+                <p>Name:Pablo</p>
+                 <p>Painted By:Kent </p>
+                </div>
+                <button class="cardButton" onclick="popOrder()" ><a href="#Order">Order Now</a></button>
+            </div>
+                 </div> 
+
+
+                 <div class="card">
+                    <img src="img/pexels-ekaterina-bolovtsova-5393593.jpg" onclick="openFullImg(this.src)">
+                     <div class="cardTitle">
+                     <div class="title">   
+                    <p>Name:Thomas</p>
+                     <p>Painted By:Toni stones</p>
+                    </div>
+                    <button class="cardButton" onclick="popOrder()" ><a href="#Order">Order Now</a></button>
+                </div>
+                     </div> 
+
+
+                     <div class="card">
+                        <img src="img/pexels-felicity-tai-7951188.jpg" onclick="openFullImg(this.src)">
+                         <div class="cardTitle">
+                         <div class="title">   
+                        <p>Name:Daniel</p>
+                         <p>Painted By:west kanye</p>
+                        </div>
+                        <button class="cardButton" onclick="popOrder()" ><a href="#Order">Order Now</a></button>
+                    </div>
+                         </div> 
+
+                         <div class="card">
+                            <img src="img/pexels-niezam-16516.jpg" onclick="openFullImg(this.src)">
+                             <div class="cardTitle">
+                             <div class="title">   
+                            <p>Name:Emmanuel</p>
+                             <p>Painted By:ronney</p>
+                            </div>
+                            <button class="cardButton" onclick="popOrder()" ><a href="#Order">Order Now</a></button>
+                        </div>
+                             </div> 
+
+                            
+                             <div class="card">
+                                <img src="img/pexels-olly-3771079.jpg" onclick="openFullImg(this.src)">
+                                 <div class="cardTitle">
+                                 <div class="title">   
+                                <p>Name:Bennett</p>
+                                 <p>Painted By:benny</p>
+                                </div>
+                                <button class="cardButton" onclick="popOrder()" ><a href="#Order">Order Now</a></button>
+                            </div>
+                                 </div> 
+
+                                
+                                 <div class="card">
+                                    <img src="img/pexels-pavel-danilyuk-6593531.jpg" onclick="openFullImg(this.src)">
+                                     <div class="cardTitle">
+                                     <div class="title">   
+                                    <p>Name:Harold</p>
+                                     <p>Painted By:harry</p>
+                                    </div>
+                                    <button class="cardButton" onclick="popOrder()" ><a href="#Order">Order Now</a></button>
+                                </div>
+                                     </div> 
+
+
+                                     <div class="card">
+                                        <img src="img/pexels-pavel-danilyuk-6593544.jpg" onclick="openFullImg(this.src)">
+                                         <div class="cardTitle">
+                                         <div class="title">   
+                                        <p>Name:David</p>
+                                         <p>Painted By:Barry</p>
+                                        </div>
+                                        <button class="cardButton" onclick="popOrder()" ><a href="#Order">Order Now</a></button>
+                                    </div>
+                                         </div> 
+
+
+                                         <div class="card">
+                                            <img src="img/pexels-pavel-danilyuk-6593565.jpg" onclick="openFullImg(this.src)">
+                                             <div class="cardTitle">
+                                             <div class="title">   
+                                            <p>Name:Bright</p>
+                                             <p>Painted By:Solo Banks</p>
+                                            </div>
+                                            <button class="cardButton" onclick="popOrder()" ><a href="#Order">Order Now</a></button>
+                                        </div>
+                                             </div> 
+                   
+
+
+        <div class="Order    " id="Order">
+        <h1 class="head">Order Form</h1>
+        <form class="OrderForm " action="">
+           <span>
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" id="fname" required>
+        </span>
+        <span>
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" id="lname" required>
+        </span>
+<span>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+        </span>
+        <span>
+            <label for="addr">Home Address:</label>
+            <input type="text" name="addr" id="addr" required>
+        </span>
+        <span>
+            <label for="tel">Phone Number:</label>
+            <input type="tel" name="tel" id="tel" required>
+        </span>
+            <button class="SUB" type="submit">Submit Order</button>
+        </form>
+    </div>
+    </div>
+
+
+
+
+
+    <script>
+
+const orderBtn =document.getElementById("Order")
+
+
+
+function popOrder (){
+    orderBtn.className="orderClick";
+};
+
+
+    </script>
+
+<script>
+    window.embeddedChatbotConfig = {
+    chatbotId: "MDkRPsjy4S3LaQK0vp8tA",
+    domain: "www.chatbase.co"
+    }
+    </script>
+    <script
+    src="https://www.chatbase.co/embed.min.js"
+    chatbotId="MDkRPsjy4S3LaQK0vp8tA"
+    domain="www.chatbase.co"
+    defer>
+    </script>
+
+    
+</body>
+
+</html>
